@@ -201,4 +201,50 @@ section{
     color: var(--black);
 }
 
+.review .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    cursor: pointer;
+}
+
+.review .box-container .box {
+    color: #ffff;
+    border: var(--boder);
+    text-align: center;
+    padding: 20px;
+}
+
+.address .map{
+    text-align: center;
+}
+
+.footer{
+    padding: 50px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.footer .footer-icon:hover{
+    width: 60px;
+    height: 60px;
+    transition: 0.5s;
+}
+
+.footer .tel{
+    color: #ffff;
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
 
